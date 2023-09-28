@@ -1,0 +1,7 @@
+{% extends "template.html" %}
+
+{% block index %}
+    {% if request.path == "/" %}
+        {% include "components/content.html" %}
+    {% endif %}
+{% endblock index %}

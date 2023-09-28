@@ -1,0 +1,7 @@
+{% extends "dashboard-template.html" %}
+
+{% block dashboard %}
+    {% if request.path == "/dashboard" %}
+        {% include "components/content-dashboard.html" %}
+    {% endif %}
+{% endblock dashboard %}
